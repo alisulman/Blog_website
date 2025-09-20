@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="Blog website">
+    <meta name="description" content="This is my first webiste with CSS">
+    <title>My First Blog</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: content-box;
+            font-family: "Poppins", sans-serif;
+            user-select: none;
+        }
+
+        header {
+            background-color: #FF4D36;
+        }
+
+        nav {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 0.3rem 1rem;
+        }
+
+        ul {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 2rem;
+            list-style: none;
+            font-size: 12px;
+
+
+        }
+
+        ul .links {
+            border-bottom: none;
+            padding: 0.01rem 0.5rem;
+
+        }
+
+        ul .links:hover {
+            border-bottom: 1.2px solid #fff;
+            padding: 0.01rem 0.5rem;
+
+        }
+
+        .logo {
+            font-size: 16px;
+            color: #fff;
+            cursor: pointer;
+        }
+
+        .links a {
+            text-decoration: none;
+            color: #fff;
+        }
+        .hero{
+            position: relative;
+        }
+
+        .hero_section {
+            position: absolute;
+            width: 100vw;
+            height: 70vh;
+            background-size: cover;
+            background-image: url("https://www.shutterstock.com/image-photo/ai-artificial-intelligence-technology-data-600nw-2587620995.jpg");
+            background-repeat: no-repeat;
+            filter: brightness(50%);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+        }
+
+        div {
+            filter: brightness(1000%);
+            color: #fff;
+            text-align: center;
+        }
+    </style>
+
+</head>
+
+<body>
+    <header>
+        <nav>
+            <h1 class="logo">Blog</h1>
+            <ul>
+                <li class="links"><a href="#">Home</a></li>
+                <li class="links"><a href="#">About</a></li>
+                <li class="links"><a href="#">Service</a></li>
+                <li class="links"><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="hero">
+            <div class="hero_section">
+            </div>
+            <div>
+                <h1>Lorem ipsum</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga, ratione.</p>
+            </div>
+        </section>
+        <section>
+            <div>
+                <img src="" alt="">
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+            </div>
+            <div>
+                <img src="" alt="">
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+            </div>
+            <div>
+                <img src="" alt="">
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+            </div>
+        </section>
+        <footer>
+            <p>&copy; Copywrite, 2025</p>
+        </footer>
+    </main>
+</body>
+
+</html>
